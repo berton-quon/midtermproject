@@ -27,7 +27,7 @@ function Students() {
         }
       ]
 
-  const studentList = cardInfo.map(student => <Cards student = {cardInfo}/>)
+  const studentList = cardInfo.map(student => <Cards student = {student}/>)
 
   return (
     <div>
