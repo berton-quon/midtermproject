@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
-export default function Cards() {
+export default function Cards(Students) {
 
   function importAll(r) {
     let images = {};
@@ -18,9 +18,9 @@ export default function Cards() {
         <Card>
           <Card.Img variant="top" src={images['s1.png']}/>
           <Card.Body>
-            <Card.Title>NAME HERE</Card.Title>
+            <Card.Title>NAME HERE{Students.name}</Card.Title>
             <Card.Text>
-              GPA HERE
+              GPA HEREdafsd
             </Card.Text>
             <Button variant="primary">Grade</Button>
           </Card.Body>

@@ -7,9 +7,7 @@ import Cards from './Components/Cards';
 function App() {
   return (
     <div className="App">
-
     <h1>Students List</h1>
-    <Cards/>
     <Students/>
     </div>
   );
