@@ -31,7 +31,7 @@ function Students() {
 
   return (
     <div>
-       dstudo
+       {cardInfo}
     </div>
   )
 }

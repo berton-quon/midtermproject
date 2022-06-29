@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
-class Cards extends Component {
-  render() {
+export default function Cards({cardInfo}) {
     return (
-      <div className="containter">
+      <div class="card">
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
@@ -16,10 +15,6 @@ class Cards extends Component {
             <Button variant="primary">Grade</Button>
           </Card.Body>
         </Card>
-
     </div>
     )
   }
-}
-
-export default Cards

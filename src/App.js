@@ -6,7 +6,6 @@ import Cards from './Components/Cards';
 function App() {
   return (
     <div className="App">
-      <Students/>
       <Cards/>
     </div>
   );
