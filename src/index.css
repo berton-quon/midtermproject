@@ -6,16 +6,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(68, 196, 196);
-align-items: center;
-margin: 5%;
+margin-left: 30%;
+margin-right: 30%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  color:rgb(52, 36, 116);
+  font-size: 4vw;
+}
 .card{
   background-color: green;
   margin: 1%;
-
+  width: 100%;
 }
+.cardTitle{
+  font-weight: bold;
+  font-size: 2vw;
+}
+.cardGPA{
+  color: blue;
+  font-size: 1vw;
+}
+.cardImage{
+  padding-top: 1%;
+  width: 15%;
+}
+
