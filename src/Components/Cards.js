@@ -12,11 +12,13 @@ export default function Cards({student}) {
   }
   const images = importAll(require.context('./Images', false, /\.(png|jpeg|svg)$/));
 
+  let studentImage = student.image;
+
     return (
       <div class="card">
-        const imageS = {student.image}
+
         <Card>
-          <Card.Img variant="top" src={student.image}/>
+          <Card.Img variant="top" src={images[studentImage]}/>
           <Card.Body>
             <Card.Title>{student.name}</Card.Title>
             <Card.Text>
